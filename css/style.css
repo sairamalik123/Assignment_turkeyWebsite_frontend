@@ -1,0 +1,363 @@
+body{
+    width: 100%;
+    overflow-x: hidden;
+}
+.hero {
+    background: url(../images/hero.jpg);
+    background-size: cover;
+    background-repeat: no-repeat;
+    color: white;
+}
+nav ul li {
+    margin-right: 15px;
+    font-size: 14px;
+    font-weight: bold;
+}
+nav .dropdown-menu.show {
+    display: block;
+    background-color: black;
+    border-top: 2px solid red;
+    border-radius: none !important;
+}
+nav a.dropdown-item {
+    font-size: 10px;
+    color: white;
+    padding: 0px 5px;
+}
+nav .nav-search{
+    outline: none;
+    border: none;
+    padding: 0 10px;
+    font-size: 12px;
+    background-color: none;
+    color: white;
+    background: none;
+}
+
+nav .search-cont{
+    background-color: white;
+    border-radius: 20px;
+    padding: 0 5px;
+}
+nav .search-cont img{
+    width: 20%;
+}
+nav .nav-text{
+    font-size: 12px;
+}
+nav .en{
+    background-color: white;
+    border: none;
+    outline: none;
+    color: red;
+}
+.stundy-logo{
+    top: 14%;
+    left: 5%;
+}
+.hero-form{
+    padding-top: 25% !important;
+    padding-bottom: 5%;
+    border-radius: 20px;
+}
+select.form-select {
+    background-color: #e4e4e4;
+    padding: 10px 25px;
+    border-radius: 0;
+    width: 90%;
+    color: grey;
+}
+.hero-form input.form-control.mr-sm-2.mb-3.col-sm-10 {
+    background-color: #e4e4e4;
+    padding: 10px 25px;
+    border-radius: 0;
+    width: 90%;
+    color: grey;
+}
+.hero-form button {
+    background-color: red;
+    padding: 10px 25px;
+    border-radius: 0;
+    width: 90%;
+    color: white;
+    border: none;
+}
+.form-main-cont{
+    transform: translate(0,-50%);
+    top: 50%;
+    right: 0%;
+}
+.left-logo{
+    left: -10%;
+}
+.section-3::before{
+    content: "";
+    position: absolute;
+    width: 160px;
+    height: 160px;
+    /* z-index: 3; */
+    right: 0;
+    top: 0;
+    background: url(../images/four-step-cizgi.png);
+    background-size: cover;
+}
+.section3-btn{
+    width: 50px;
+    height: 50px;
+    border-radius: 50%;
+    border: none;
+    background-color: white;
+    color: black;
+    box-shadow: rgba(0, 0, 0, 0.35) 0px 5px 15px;
+    font-size: 16px;
+    cursor: pointer;
+    transition: background-color 0.3s ease;
+}
+#dynamic-paragraph-section3{
+    font-size: 13px;
+}
+.dynamic-section3-btn{
+    background-color: red;
+    color: white;
+    padding: 10px 40px;
+    border: none;
+    border-radius: 30px;
+}
+.section3-text{
+    font-size: 10px;
+    height: 35px;
+    font-weight: bold;
+}
+
+.section-4{
+    background-color: rgb(207, 207, 207);
+}
+
+/* section4 Slider*/
+.cont {
+    position: relative;
+    width: 100%;
+    background-color: #ddd;
+  }
+
+  .slider {
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -50%); /* Center the slider */
+    width: 100%;
+    /* max-width: 800px; */
+    overflow: hidden;
+  }
+
+  .slides {
+    display: flex;
+    transition: transform 0.5s ease-in-out;
+  }
+
+  .slide {
+    min-width: 100%;
+    transition: opacity 1s ease;
+  }
+
+  .slide img {
+    width: 100%;
+    height: auto;
+  }
+
+  .prev, .next {
+    position: absolute;
+    top: 50%;
+    transform: translateY(-50%);
+    background-color: rgba(0, 0, 0, 0.5);
+    border: none;
+    color: white;
+    padding: 10px;
+    cursor: pointer;
+  }
+
+  .prev {
+    left: 10px;
+  }
+
+  .next {
+    right: 10px;
+  }
+
+  .slider-wrapper {
+    position: relative;
+    background: #fff;
+    width: 75%;
+    padding: 30px;
+    padding-bottom: 10%;
+    overflow: hidden;
+    box-shadow: rgba(0, 0, 0, 0.35) 0px 5px 15px;
+}
+
+.slider-section5 {
+    display: flex;
+    transition: transform 0.5s ease-in-out;
+    width: calc(300px * 6); /* Width for 6 original images */
+}
+
+.slide-section5 {
+    min-width: 300px;
+    margin-right: 30px; /* Space between slides */
+    height: 100%; /* Ensure each slide takes the full height */
+}
+
+.slider-wrapper img {
+    width: 100%;
+    height: auto;
+    border-radius: 8px; /* Optional styling */
+}
+.section-5::after{
+    content: "";
+    position: absolute;
+    width: 20%;
+    height: 120px;
+    top: 8%;
+    right: 5%;
+    background: url(../images/turkey.png);
+    background-size: contain;
+    background-repeat: no-repeat;
+}
+.section-5::before{
+    content: "";
+    position: absolute;
+    width: 28%;
+    height: 300px;
+    top: 8%;
+    right: 10%;
+    background: url(../images/yuvarlak1.png);
+    background-size: contain;
+    background-repeat: no-repeat;
+}
+.section-6::before{
+    content: "";
+    position: absolute;
+    width: 28%;
+    height: 300px;
+    top: 8%;
+    left: 3%;
+    background: url(../images/yok-logo.png);
+    background-size: contain;
+    background-repeat: no-repeat;
+}
+
+/* Section 7 slider */
+
+.section7-slider-container {
+    width: 100%;
+    overflow: hidden;
+    position: relative;
+  }
+
+  .section7-slider {
+    display: flex;
+    transition: transform 0.5s ease-in-out;
+  }
+
+  .section7-slide {
+    min-width: 50%;
+    box-sizing: border-box;
+    padding: 3% 10%;
+  }
+
+  .section7-card-cont {
+    background-color: #fff;
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+    padding: 5%;
+  }
+
+  .section7-review-card {
+    background: #fff;
+    position: relative;
+    border: 1px dotted black;
+    padding: 15% 22%;
+    padding-top: 5%;
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+  }
+
+  .section7-review-card h3 {
+    margin-bottom: 10px;
+  }
+
+  .section7-review-card p {
+    color: #555;
+    font-size: 14px;
+  }
+
+  .section7-dots {
+    text-align: center;
+    margin-top: 20px;
+  }
+
+  .section7-dot {
+    display: inline-block;
+    width: 12px;
+    height: 12px;
+    background-color: #bbb;
+    border-radius: 50%;
+    margin: 0 5px;
+    cursor: pointer;
+  }
+
+  .section7-dot.active {
+    background-color: #333;
+  }
+  .section7-slideImg {
+    position: absolute;
+    width: 150px;
+    height: 150px;
+    border-radius: 50%;
+    top: 50%;
+    left: 0;
+    transform: translate(-50%, -50%);
+  }
+  /* section 8 slider */
+  .section8-slider-container {
+    width: 80%;
+    overflow: hidden;
+    position: relative;
+}
+
+.section8-slider {
+    display: flex;
+    transition: transform 0.5s ease-in-out;
+}
+
+.section8-slide {
+    min-width: 16.66%; /* 100% / 6 images */
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    padding: 10px; /* Optional padding between images */
+}
+
+.section8-slide img {
+    width: 100%;
+    height: auto;
+    border-radius: 10px; /* Optional for rounded corners */
+}
+
+footer{
+  background: url(../images/footer-bg.png);
+  background-size: cover;
+  color: #fff;
+}
+.footer-heading{
+  border-bottom: 1px solid #fff;
+  position: relative;
+}
+.footer-heading::after{
+  content: "";
+  position: absolute;
+  bottom: -3.8%;
+  left: 0;
+  transform: translate(0, -50%);
+  width: 30%;
+  height: 3px;
+  z-index: 2;
+  background: #fff;
+}
